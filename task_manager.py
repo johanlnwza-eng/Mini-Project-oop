@@ -1,13 +1,3 @@
-"""
-task_manager.py
-
-TaskManager เป็นตัวกลาง (business logic layer) ระหว่าง GUI กับ Task objects
-- Encapsulation: เก็บ list ของ task เป็น private เข้าถึงผ่าน method เท่านั้น
-- ใช้ Polymorphism ทางอ้อม: เวลาเรียก task.calculate_priority_score() หรือ
-  task.get_info() ไม่ว่า task จะเป็น DeadlineTask หรือ RecurringTask ก็เรียก
-  ได้แบบเดียวกัน (duck typing / interface เดียวกันจาก Task)
-"""
-
 import json
 from category import Category
 from task import Task, DeadlineTask, RecurringTask
