@@ -3,7 +3,6 @@ from category import Category
 from task import Task, DeadlineTask, RecurringTask
 from datetime import date
 
-
 class TaskManager:
     def __init__(self):
         self.__tasks = []          # private: list[Task]
