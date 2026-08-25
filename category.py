@@ -1,11 +1,3 @@
-"""
-category.py
-
-Category ใช้จัดกลุ่มงาน เช่น "งานเรียน", "งานบ้าน", "ส่วนตัว"
-แสดงหลักการ Encapsulation อีกจุดหนึ่งของระบบ
-"""
-
-
 class Category:
     def __init__(self, name, color_code="#888888"):
         self.__name = name
