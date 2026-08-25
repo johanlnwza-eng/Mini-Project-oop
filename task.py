@@ -1,20 +1,3 @@
-"""
-task.py
-
-คลาสหลักของระบบ Task Manager
-มีการใช้หลักการ OOP ครบทั้ง 4 ด้าน:
-
-- Abstraction:      Task เป็น abstract class (ABC) มี abstract method
-                     calculate_priority_score() ที่ subclass ต้อง implement เอง
-- Encapsulation:    attribute ทั้งหมดเป็น private (นำหน้าด้วย __) เข้าถึง/แก้ไข
-                     ได้ผ่าน property (getter/setter) เท่านั้น
-- Inheritance:      DeadlineTask และ RecurringTask สืบทอดจาก Task
-- Polymorphism:     calculate_priority_score() และ __str__() ถูก override
-                     ต่างกันในแต่ละ subclass (runtime polymorphism / overriding)
-                     และ Task.__init__ ใช้ default argument เพื่อทำ
-                     overload-like behavior (compile-time-ish polymorphism)
-"""
-
 from abc import ABC, abstractmethod
 from datetime import date, datetime
 import itertools
