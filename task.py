@@ -4,7 +4,6 @@ import itertools
 
 _id_counter = itertools.count(1)
 
-
 class Task(ABC):
     """Abstract base class สำหรับงานทุกประเภทในระบบ"""
 
