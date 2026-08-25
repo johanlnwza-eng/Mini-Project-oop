@@ -1,11 +1,3 @@
-"""
-app.py
-
-TodoApp: ส่วนติดต่อผู้ใช้ (GUI) ด้วย Tkinter
-ทำหน้าที่แค่ "แสดงผล" และ "รับ input" -> ส่งต่อ logic ทั้งหมดให้ TaskManager
-(แยก concern ระหว่าง UI กับ business logic ตามหลัก OOP ที่ดี)
-"""
-
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
