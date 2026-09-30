@@ -1,6 +1,6 @@
 import json
-from category import Category
-from task import Task, DeadlineTask, RecurringTask
+from Category import Category
+from Task import Task, DeadlineTask, RecurringTask
 from datetime import date
 
 class TaskManager:
