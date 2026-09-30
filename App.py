@@ -2,8 +2,8 @@ import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
 
-from task_manager import TaskManager
-from task import DeadlineTask, RecurringTask
+from Task_manager import TaskManager
+from Task import DeadlineTask, RecurringTask
 
 PRIORITY_LABEL = {1: "สูง", 2: "กลาง", 3: "ต่ำ"}
 
